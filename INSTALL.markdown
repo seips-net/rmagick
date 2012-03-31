@@ -1,6 +1,7 @@
 # Windows
+
 ## Working with
-Tested with:
+
 * Windows 7 professional 64bit & Ruby 1.9.3-p125
 * Windows XP SP3 32bit & Ruby 1.9.3-p125
 
@@ -10,7 +11,7 @@ Tested with:
    * Install into C:\opt (You can use any other place witout spaces in the path.}
 3. Restart your console/comand prompt/IDE/... or just restart windows to make ImageMagick commands available.
 4. Install rmagick
-    gem install rmagick --platform=ruby -- --with-opt-lib=C:/opt/ImageMagick-6.7.6-Q16/lib --with-opt-include=c:/opt/ImageMagick-6.7.6-Q16/include
+       gem install rmagick --platform=ruby -- --with-opt-lib=C:/opt/ImageMagick-6.7.6-Q16/lib --with-opt-include=c:/opt/ImageMagick-6.7.6-Q16/include
 
 ## Trouble shooting
 * The versions of the downloadable software is changing form time to time. Do not give up, if the link is down.
